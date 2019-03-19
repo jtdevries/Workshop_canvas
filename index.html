@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <title>Drawing app</title>
+</head>
+<body>
+    <nav id="toolbar" class="navbar navbar-dark bg-dark mb-5">
+        <div id="rad" class="btn-group btn-group-sm">
+            <button id="decrad" class="btn bg-secondary">-</button>
+            <button id="radval" class="btn btn-secondary btn-disabled" disabled>10</button>
+            <button id="incrad" class="btn bg-secondary">+</button>
+        </div>
+        <button id="save" class="btn bg-secondary">Save</button>
+        <div id="colors"></div>        
+    </nav>
+    
+    <canvas id="canvas">
+        Not supported browser... sorry!
+    </canvas>
+
+    <script type="text/javascript" src='assets/js/main.js'></script>
+    <script type="text/javascript" src='assets/js/radius.js'></script>
+    <script type="text/javascript" src='assets/js/colors.js'></script> 
+    <script type="text/javascript" src='assets/js/save.js'></script>
+</body>
+</html>
