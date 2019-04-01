@@ -9,6 +9,17 @@ canvas.height = window.innerHeight;
 
 ctx.lineWidth = radius * 2;  
 
+window.addEventListener('load', e =>{
+  if('serviceWorker' in navigator){
+    try {
+      navigator.serviceWorker.register('./sw.js');
+      console.log('SW registered');
+    } catch (error) {
+      console.log('SW failed');
+    }
+  }
+});
+
 var putPoint = function(e) {
         if (dragging) {     
         ctx.lineTo(e.clientX, e.clientY);      
