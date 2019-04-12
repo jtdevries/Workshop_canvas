@@ -22,3 +22,9 @@
 
 ### To-Do
 #### Option to save, Touch support / Pen support, A fill screen function, more Brushes.
+#### PWA Manifest Service Worker. 
+----------
+
+### Handy links
+[Manifest generator](https://app-manifest.firebaseapp.com/)
+[Service worker](https://developers.google.com/web/ilt/pwa/introduction-to-service-worker)
